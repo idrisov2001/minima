@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+#header {
+    padding: 15px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo {
+    width: 60px;
+    height: 60px;
+    background: #121212;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-logo h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+
+}
+
+.header-logo2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+}
+
+.header-logo-general {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #464646;
+    padding: 0 15px;
+    transition: .4s;
+}
+
+.header-nav:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.header-btn {
+    padding: 10px 30px;
+    background: #000;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.header-btn:hover {
+    background: transparent;
+    color: black;
+    transform: scale(1.1);
+
+}
+
+#hero {
+    background: #000;
+    padding-top: 100px;
+
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    color: #FAFAFA;
+    margin: 15px;
+}
+
+.hero p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #F8F6F5;
+    margin: 25px;
+}
+
+.hero-btn3 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FAFAFA;
+    margin: 20px;
+
+}
+
+.hero-btn2 {
+    width: 175px;
+    height: 52px;
+    background: #FAFAFA;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero-btn {
+    width: 127px;
+    height: 72px;
+    background: #FFFFFF;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.btn{
+    border-radius: 100px;
+    width: 72px;
+    height: 72px;
+    background: #FDEC57;
+}
+
+.general{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+.gen {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1D1D1D;
+
+}
+.gen h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 53px;
+    color: #000000;
+    margin: 20px;
+}
+ #wiil{
+    padding-top: 100px;
+ }
+.wiil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+.wiil-title{
+    margin-top: 100px;
+}
+.wiil-title h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+      font-size: 48px;
+    line-height: 53px;
+    color: #000000;
+    margin-bottom: 35px;
+
+}
+.wiil-title p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #4F4F4F;
+    margin-bottom: 15px;
+}
+.wiil h2{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+}
+.best{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row
+}
+.best-title {
+    margin-left: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
